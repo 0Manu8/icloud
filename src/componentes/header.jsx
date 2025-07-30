@@ -229,13 +229,13 @@ const Header = () => {
                 aria-label="Abrir menú"
               >
                 <div className="w-6 h-6 flex flex-col justify-center space-y-1">
-                  <span className={`block w-full h-[0.01rem] bg-black transition-all duration-300 ${
+                  <span className={`block w-full h-[0.1rem] bg-black transition-all duration-300 ${
                     isMobileMenuOpen ? 'transform rotate-45 translate-y-1' : ''
                   }`}></span>
                   <span className={`block w-full h-0 bg-black transition-all duration-300 ${
                     isMobileMenuOpen ? 'opacity-0' : ''
                   }`}></span>
-                  <span className={`block w-full h-[0.01rem] bg-black transition-all duration-300 ${
+                  <span className={`block w-full h-[0.1rem] bg-black transition-all duration-300 ${
                     isMobileMenuOpen ? 'transform -rotate-45 -translate-y-1' : ''
                   }`}></span>
                 </div>
